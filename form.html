@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body style="background-color: darkgray;">
+    <h1 style="text-align: center;">Registration Form</h1>
+    <hr width="272 px">
+    <h2 style="text-align: center;">Personal Details</h2>
+    <form >
+    <table style="margin-left: auto; margin-right: auto; ">
+        <tr>
+            <td>
+                First Name:
+            </td>
+            <td>
+                Last Name:
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input type="text" name="Name" placeholder="first name">
+            </td>
+            <td>
+                <input type="text" name="Name" placeholder="last name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                E-mail: <br>           
+                <input type="email" name="email" placeholder="enter email">    
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Contact No. : <br>
+                <input type="tel" name="contact" placeholder="enter contact no." maxlength="10">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Gender: <br>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Other">Other
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date Of Birth  :
+            </td>
+            <td>
+                <input type="date" name="DOB" >
+            </td>
+        </tr>
+    </table>
+    <h2 style="text-align: center;">Education Details</h2>
+    <table style="margin-left: auto; margin-right: auto; ">
+        <tr>
+            <td>
+                Degree Course:               
+            </td>
+            <td>
+                <input type="text" name="course" placeholder="course name">
+            </td>
+        </tr>  
+        <tr>
+            <td>
+                Stream  :
+            </td>
+            <td>
+                <input type="text" name="stream" placeholder="stream">
+            </td>
+        </tr> 
+    </table>
+        <div style="text-align:center;">
+        Upload Degree : <input type="file" name="img" multiple> <br>
+        <br>
+        <h2>Address Details</h2>
+        <textarea name="message" rows="5" cols="30">        
+        </textarea> <br>
+        <input type="submit" value="submit">
+        <input type="reset" >
+        </div>
+    </form>
+</body>
+</html>
